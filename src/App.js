@@ -170,7 +170,7 @@ const App = () => {
                     <div className="col-lg-7">
                       <div className="map">
                         <Image
-                          src="/images/swd-map.png"
+                          src="/images/swd-map.jpg"
                           className="w-100"
                           style={{ border: "3px solid #36567E" }}
                           rounded
