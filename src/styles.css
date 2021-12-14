@@ -92,6 +92,19 @@ i.fab:hover {
   width: 500px;
 }
 
+.menu-items li {
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  padding: 40px 20px 0 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu-items li:hover {
+  color: #be3127;
+}
+
 /* Footer styles */
 
 footer {
@@ -110,5 +123,12 @@ footer {
 
   .call-to-action-image {
     display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .navigation-bar {
+    display: block;
+    text-align: center;
   }
 }

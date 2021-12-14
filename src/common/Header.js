@@ -2,7 +2,19 @@ import React from "react";
 
 import { Button, Image } from "react-bootstrap";
 
-const Header = () => {
+const Header = (props) => {
+  const scrollToNode = () => {
+    const node = props.node;
+    node.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToChildNode = () => {
+    const childNode = props.childNodes;
+    // console.log("the node is...", node);
+    childNode.scrollIntoView({ behavior: "smooth" });
+  };
+
+  // console.log("props are...", props);
   return (
     <header
       className="app-header"
@@ -21,23 +33,11 @@ const Header = () => {
               />
             </a>
           </div>
-          <div className="socialMedia">
-            <a
-              href="https://www.google.com/maps/place/Super+Wash+n+Dry/@38.6091135,-121.4543434,17z/data=!3m2!4b1!5s0x809ad75a32d12153:0x676687962f893b99!4m5!3m4!1s0x809ad7ad236145d5:0x26da0d4c65efe610!8m2!3d38.6092226!4d-121.4521535"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Super Wash n Dry Google Directions"
-            >
-              <i className="fab fa-google fa-3x"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/superwashndrydelpaso"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Super Wash n Dry Facebook Page"
-            >
-              <i className="fab fa-facebook fa-3x"></i>
-            </a>
+          <div className="menu-items">
+            <ul>
+              <li onClick={() => scrollToChildNode()}>Gallery</li>
+              <li onClick={() => scrollToNode()}>Contact Us</li>
+            </ul>
           </div>
         </nav>
 
