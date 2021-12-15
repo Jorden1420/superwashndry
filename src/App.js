@@ -66,7 +66,7 @@ const App = () => {
                         </Card.Title>
                         <Card.Text>
                           Our hours are flexible to meet customers needs for
-                          cleaning clothes. In addition, Available times are on
+                          cleaning clothes. In addition, available times are on
                           our website below to see when we are open for
                           operating hours.
                         </Card.Text>
@@ -89,7 +89,7 @@ const App = () => {
                         </Card.Title>
                         <Card.Text>
                           Our machines are always cleaned and have a vast amount
-                          of selection options on how customers would like there
+                          of selection options on how customers would like their
                           clothes cleaned and dryed to provide the highest
                           quality of cleasiness.
                         </Card.Text>
@@ -161,7 +161,9 @@ const App = () => {
                         Business Hours
                       </h3>
                       <p className="text-white">
-                        <strong>Monday-Friday 7AM - 10PM</strong>
+                        <strong>
+                          Open every day 7 day a week from 7AM - 10PM
+                        </strong>
                       </p>
                       <p className="text-white">
                         <strong>Last Wash @ 8:30PM</strong>
