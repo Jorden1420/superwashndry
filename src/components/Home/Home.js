@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-import Header from "./common/Header";
-import Footer from "./common/Footer";
+import Header from "../../common/Header";
+import Footer from "../../common/Footer";
 
-import Gallery from "./components/Gallery";
+import Gallery from "../Gallery/Gallery";
 
 import { Image, Card } from "react-bootstrap";
 
-const App = () => {
+const Home = () => {
   const [scrollDiv, setScrollDiv] = useState();
   const [scrollChildDiv, setScrollChildDiv] = useState();
 
@@ -226,4 +226,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
