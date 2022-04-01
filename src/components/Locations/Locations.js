@@ -13,6 +13,7 @@ const Locations = () => {
   function handleClick() {
     navigate("/home");
   }
+  //test change
   return (
     <div className="locationsContainer">
       <div className="container-fluid" id="locationHeader">
