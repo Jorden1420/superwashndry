@@ -140,10 +140,10 @@ const Home = () => {
                         Contact Information
                       </h3>
                       <a
-                        href="tel:9164184434"
+                        href="tel:9169690055"
                         className="phone text-white d-block pt-3"
                       >
-                        <strong>Phone:</strong> (916) 418-4434
+                        <strong>Phone:</strong> (916) 969-0055
                       </a>
                       <a
                         href="https://www.google.com/maps/place/Super+Wash+n+Dry/@38.6091135,-121.4543434,17z/data=!3m2!4b1!5s0x809ad75a32d12153:0x676687962f893b99!4m5!3m4!1s0x809ad7ad236145d5:0x26da0d4c65efe610!8m2!3d38.6092226!4d-121.4521535"
